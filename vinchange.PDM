@@ -1,0 +1,108 @@
+[Root]
+Most Recent Package=VinchangerStandardSetup1
+
+
+[Package|VinchangerStandardSetup1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\vinchanger\Package
+
+[Package|VinchangerStandardSetup1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|VinchangerStandardSetup1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|VinchangerStandardSetup1|Files Found]
+
+[Package|VinchangerStandardSetup1|Files Released]
+VinEdit1.hlp=
+
+[Package|VinchangerStandardSetup1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\FLASH.OCX=
+
+[Package|VinchangerStandardSetup1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+
+[Package|VinchangerStandardSetup1|Files Added]
+C:\vinchanger\cdbdata.swf=
+
+[Package|VinchangerStandardSetup1|Files Removed]
+
+[Package|VinchangerStandardSetup1|Files In Project]
+C:\vinchanger\vinchanger.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT2\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINNT2\system32\MSCOMM32.OCX=Yes
+C:\WINNT2\system32\mscomctl.ocx=Yes
+C:\WINNT2\system32\VB6STKIT.DLL=Yes
+C:\vinchanger\cdbdata.swf=Yes
+
+[Package|VinchangerStandardSetup1|Configure Registry Files]
+Applicable=No
+
+[Package|VinchangerStandardSetup1|Configure Remote Servers]
+Applicable=No
+
+[Package|VinchangerStandardSetup1|Install Locations]
+C:\vinchanger\vinchanger.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\FLASH.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT2\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINNT2\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINNT2\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINNT2\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\vinchanger\cdbdata.swf=$(AppPath)
+
+[Package|VinchangerStandardSetup1|Configure Shared Files]
+Applicable=Yes
+C:\vinchanger\vinchanger.exe=No
+C:\vinchanger\cdbdata.swf=No
+
+[Package|VinchangerStandardSetup1|Distribution]
+Type=single
+Size=
+Title=Digital Horsepower Inc, Vin Editor 1.0 Beta Installation
+
+[Package|VinchangerStandardSetup1|Package]
+PackageFolder=C:\vinchanger\Package
+ProjectFolder=C:\vinchanger
+ServerSideCab=
+File1=C:\vinchanger\Package\setup.exe
+File2=C:\vinchanger\Package\Setup.Lst
+File3=C:\vinchanger\Package\vinchanger.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|VinchangerStandardSetup1|IconGroups]
+Group0=Digital Horsepower Inc
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|VinchangerStandardSetup1|Digital Horsepower Inc]
+Icon1=vinchanger.exe
+Title1=VinEditor 1.0 Beta
+StartIn1=$(AppPath)
+Key1=Icon1

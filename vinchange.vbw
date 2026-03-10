@@ -1,0 +1,15 @@
+frmMain = 0, 0, 669, 313, , 44, 44, 730, 542, C
+frmAbout = 66, 66, 687, 385, I, 44, 44, 665, 363, C
+Module1 = -17, 1, 738, 587, 
+frmInterfaceDialog = 166, 219, 743, 643, , 0, 0, 577, 424, C
+Dialog = 0, 0, 0, 0, C, 44, 44, 621, 468, C
+frmSerialDialog = 0, 0, 644, 424, , 176, 176, 753, 600, C
+frmWriteVin = 130, 122, 707, 546, , 154, 154, 731, 578, C
+frmReadVin = 154, 154, 766, 568, , 44, 44, 642, 450, C
+frmSplash = 176, 176, 774, 582, C, 154, 154, 752, 560, C
+frmATv2_RequestFirmwareVersion = 100, 67, 698, 473, , 22, 22, 620, 428, C
+ATv2_API = -1, 0, 781, 284, 
+ATv1_APIa = 22, 22, 723, 355, 
+frmDHPInterface_RequestFirmwareVersion = 88, 88, 686, 494, , 66, 66, 664, 472, C
+DHPInterface_API = 0, 310, 788, 619, Z
+frmATv1_RequestFirmwareVersion = 0, 0, 0, 0, C, 154, 154, 788, 487, C
